@@ -13,12 +13,12 @@ const portfinder = require('portfinder')
 const HOST = process.env.HOST
 const PORT = process.env.PORT && Number(process.env.PORT)
 
-const express = require('express');
-const app = express();
-const routes = express.Router();
-const shop = require('../mock/data.json');
-const foods = require('../mock/batch_comments.comments.json')
-app.use('/api',routes)
+// const express = require('express');
+// const app = express();
+// const routes = express.Router();
+// const shop = require('../mock/data.json');
+// const foods = require('../mock/batch_comments.comments.json')
+// app.use('/api',routes)
 
 const devWebpackConfig = merge(baseWebpackConfig, {
   module: {
@@ -49,15 +49,15 @@ const devWebpackConfig = merge(baseWebpackConfig, {
     quiet: true, // necessary for FriendlyErrorsPlugin
     watchOptions: {
       poll: config.dev.poll,
-    },
-    before(app){
-      app.get('/api/shop', (req, res) => {
-        res.json(shop)
-      })
-      app.get('/api/foods', (req, res) => {
-        res.json(foods)
-      })
     }
+    // before(app){
+    //   app.get('/api/shop', (req, res) => {
+    //     res.json(shop)
+    //   })
+    //   app.get('/api/foods', (req, res) => {
+    //     res.json(foods)
+    //   })
+    // }
   },
   plugins: [
     new webpack.DefinePlugin({

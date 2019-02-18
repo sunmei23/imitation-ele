@@ -34,7 +34,9 @@ module.exports = {
     "no-multiple-empty-lines":[0],
      "quotes": [0],
     "eol-last":[0],
-    "no-unused-vars": [0]
+    "no-unused-vars": [0],
+    "comma-spacing":[0],
+    "no-dupe-keys":[0]
 
     // // allow paren-less arrow functions
     // 'arrow-parens': 0,

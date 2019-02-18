@@ -11,6 +11,7 @@ import calFood from './components/calfood/calfood'
 import 'animate.css'
 import Moment from 'moment'
 import 'swiper/dist/css/swiper.css'
+import './mock.js'
 
 Vue.config.productionTip = false;
 Vue.prototype.axios = Axios;
@@ -21,6 +22,8 @@ Vue.component('calFood', calFood);
 Vue.filter('timeFilter', function (time) {
    return Moment(time).format("YYYY-MM-DD HH:mm");
 });
+
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
