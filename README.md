@@ -20,7 +20,7 @@ npm run build --report
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
-查看网页效果：https://sunmei23.github.io/Netease-Cloud/dist/
+查看网页效果：https://sunmei23.github.io/imitation-ele/dist/
 
 
 手机扫码查看：
