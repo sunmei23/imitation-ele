@@ -6,7 +6,6 @@ const path = require('path')
 
 module.exports = {
   dev: {
-
     // Paths
     assetsSubDirectory: './static',
     assetsPublicPath: '/imitation-ele/dist',
@@ -50,7 +49,8 @@ module.exports = {
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
-    assetsPublicPath: '/',
+    // 下面定义的是静态资源的公开路径，也就是真正的引用路径
+    assetsPublicPath: 'https://sunmei23.github.io/imitation-ele/dist/',
 
     /**
      * Source Maps
