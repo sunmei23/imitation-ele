@@ -24,3 +24,6 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 
 手机扫码查看：
+
+
+![二维码](https://raw.githubusercontent.com/sunmei23/imitation-ele/master/img-README/二维码.png)
