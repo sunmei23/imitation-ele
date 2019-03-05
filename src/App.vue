@@ -24,7 +24,7 @@
       }
     },
     created () {
-      this.axios.get('api/shop')
+      this.axios.get('/api/shop')
         .then(res => {
           this.seller = res.data.seller;
         })
