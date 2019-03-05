@@ -7,7 +7,6 @@ Vue.use(Router);
 
 export default new Router({
   linkActiveClass: 'tab-active',
-  mode: 'history',
   routes: [
     // {
     //   path: '/',
